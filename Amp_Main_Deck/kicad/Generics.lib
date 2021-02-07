@@ -1,0 +1,240 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# C
+#
+DEF C C 0 0 N N 1 F N
+F0 "C" 0 100 50 H V C CNN
+F1 "C" 0 100 50 H I C CNN
+F2 "Amp_Main_Deck:0805_handsolder" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "0.1uF" 0 -80 50 H V C CNN "Amount"
+F5 "Manufacture" 0 -210 50 H I C CNN "Manufacturer"
+F6 "PartNumber" 0 -150 50 H V C CNN "Part Number"
+F7 "Vendor" 0 -270 50 H I C CNN "Vendor"
+F8 "Vendor Part Number" 0 -150 50 H I C CNN "Vendor Part Number"
+F9 "0805" 0 -210 50 H V C CNN "FP_Name"
+DRAW
+P 2 0 1 0 -50 0 -10 0 N
+P 2 0 1 0 10 0 50 0 N
+P 2 0 1 0 10 30 10 -30 N
+P 3 0 1 0 -10 30 -10 -30 -10 -20 N
+X 1 1 -100 0 50 R 50 50 1 1 P
+X 2 2 100 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CP
+#
+DEF CP C 0 0 N N 1 F N
+F0 "C" 0 100 50 H V C CNN
+F1 "CP" 0 100 50 H I C CNN
+F2 "Amp_Main_Deck:0805_handsolder_Pol" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "0.1uF" 0 -80 50 H V C CNN "Amount"
+F5 "Manufacture" 0 -210 50 H I C CNN "Manufacturer"
+F6 "PartNumber" 0 -150 50 H V C CNN "Part Number"
+F7 "Vendor" 0 -270 50 H I C CNN "Vendor"
+F8 "Vendor Part Number" 0 -150 50 H I C CNN "Vendor Part Number"
+F9 "0805" 0 -210 50 H V C CNN "FP_Name"
+DRAW
+A 60 0 50 1431 -1431 0 1 0 N 20 30 20 -30
+P 2 0 1 0 -50 0 -10 0 N
+P 2 0 1 0 -50 30 -30 30 N
+P 2 0 1 0 -40 40 -40 20 N
+P 2 0 1 0 10 0 50 0 N
+P 3 0 1 0 -10 30 -10 -30 -10 -20 N
+X 1 1 -100 0 50 R 50 50 1 1 P
+X 2 2 100 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Diode_Generic
+#
+DEF Diode_Generic D 0 0 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "Diode_Generic" 0 -80 50 H V C CNN
+F2 "Amp_Main_Deck:0805_handsolder_Pol" 0 -340 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Manufacture" 0 -210 50 H I C CNN "Manufacturer"
+F5 "PartNumber" 0 -150 50 H V C CNN "Part Number"
+F6 "Vendor" 0 -270 50 H I C CNN "Vendor"
+F7 "Vendor Part Number" 0 -150 50 H I C CNN "Vendor Part Number"
+F8 "0805" 0 -210 50 H V C CNN "FP_Name"
+DRAW
+P 2 0 0 0 -50 0 50 0 N
+P 2 0 0 0 30 30 30 -30 N
+P 4 0 0 0 -30 30 -30 -30 30 0 -30 30 F
+X A 1 -100 0 50 R 50 50 1 1 P
+X 2 2 100 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Diode_LED
+#
+DEF Diode_LED LD 0 0 N N 1 F N
+F0 "LD" 0 100 50 H V C CNN
+F1 "Diode_LED" 0 -80 50 H V C CNN
+F2 "Amp_Main_Deck:0805_handsolder_Pol" 0 -340 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Manufacture" 0 -210 50 H I C CNN "Manufacturer"
+F5 "PartNumber" 0 -150 50 H V C CNN "Part Number"
+F6 "Vendor" 0 -270 50 H I C CNN "Vendor"
+F7 "Vendor Part Number" 0 -150 50 H I C CNN "Vendor Part Number"
+F8 "0805" 0 -210 50 H V C CNN "FP_Name"
+DRAW
+P 2 0 0 0 -50 0 50 0 N
+P 2 0 0 0 30 30 30 -30 N
+P 4 0 0 0 -30 30 -30 -30 30 0 -30 30 F
+P 4 0 0 0 -10 35 5 55 5 40 20 60 N
+P 4 0 0 0 10 30 25 50 25 35 40 55 N
+X A 1 -100 0 50 R 50 50 1 1 P
+X 2 2 100 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Diode_Zener
+#
+DEF Diode_Zener DZ 0 0 N N 1 F N
+F0 "DZ" 0 100 50 H V C CNN
+F1 "Diode_Zener" 0 -80 50 H V C CNN
+F2 "Amp_Main_Deck:SOD123" 0 -340 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Manufacture" 0 -210 50 H I C CNN "Manufacturer"
+F5 "PartNumber" 0 -150 50 H V C CNN "Part Number"
+F6 "Vendor" 0 -270 50 H I C CNN "Vendor"
+F7 "Vendor Part Number" 0 -150 50 H I C CNN "Vendor Part Number"
+F8 "SOD123" 0 -210 50 H V C CNN "FP_Name"
+DRAW
+P 2 0 0 0 -50 0 50 0 N
+P 2 0 0 0 30 -30 50 -50 N
+P 2 0 0 0 30 30 10 50 N
+P 2 0 0 0 30 30 30 -30 N
+P 4 0 0 0 -30 30 -30 -30 30 0 -30 30 F
+X A 1 -100 0 50 R 50 50 1 1 P
+X 2 2 100 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# GND
+#
+DEF GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# L
+#
+DEF L L 0 0 N N 1 F N
+F0 "L" 0 100 50 H V C CNN
+F1 "L" 0 100 50 H I C CNN
+F2 "Amp_Main_Deck:0805_handsolder" 0 -340 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "10nH" 0 -80 50 H V C CNN "Amount"
+F5 "Manufacture" 0 -210 50 H I C CNN "Manufacturer"
+F6 "PartNumber" 0 -150 50 H V C CNN "Part Number"
+F7 "Vendor" 0 -270 50 H I C CNN "Vendor"
+F8 "Vendor Part Number" 0 -150 50 H I C CNN "Vendor Part Number"
+F9 "0805" 0 -210 50 H V C CNN "FP_Name"
+DRAW
+A -35 0 15 1 1799 0 0 0 N -20 0 -50 0
+A -5 0 15 1 1799 0 0 0 N 10 0 -20 0
+A 25 0 15 1 1799 0 0 0 N 40 0 10 0
+P 2 0 0 0 40 0 50 0 N
+X 1 1 -100 0 50 R 50 50 1 1 P
+X 2 2 100 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R
+#
+DEF R R 0 0 N N 1 F N
+F0 "R" 0 100 50 H V C CNN
+F1 "R" 0 100 50 H I C CNN
+F2 "Amp_Main_Deck:0805_handsolder" 0 -340 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "2k" 0 -80 50 H V C CNN "Amount"
+F5 "Manufacture" 0 -210 50 H I C CNN "Manufacturer"
+F6 "PartNumber" 0 -150 50 H I C CNN "Part Number"
+F7 "Vendor" 0 -270 50 H I C CNN "Vendor"
+F8 "Vendor Part Number" 0 -150 50 H I C CNN "Vendor Part Number"
+F9 "0805" 0 -210 50 H V C CNN "FP_Name"
+F10 "1/8W" 0 0 50 H V C CNN "Power"
+DRAW
+T 0 0 0 50 0 0 0 R Normal 0 C C
+S -100 40 100 -40 0 0 0 N
+X 1 1 -150 0 50 R 50 50 1 1 P
+X 2 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SMD_TP
+#
+DEF SMD_TP TP 0 0 N N 1 F N
+F0 "TP" 0 100 50 H V C CNN
+F1 "SMD_TP" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 0 45 0 1 0 F
+X TP 1 -100 0 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# TermBlock_2pin
+#
+DEF TermBlock_2pin J 0 0 N N 1 F N
+F0 "J" 0 250 50 H V C CNN
+F1 "TermBlock_2pin" 0 -150 50 H I C CNN
+F2 "Amp_Main_Deck:TermBlock_200mil_2pin" 0 -340 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Manufacture" 0 -210 50 H I C CNN "Manufacturer"
+F5 "PartNumber" 0 -150 50 H I C CNN "Part Number"
+F6 "Vendor" 0 -270 50 H I C CNN "Vendor"
+F7 "Vendor Part Number" 0 -150 50 H I C CNN "Vendor Part Number"
+F8 "200mil_2pin" 0 320 50 H V C CNN "FP_Name"
+DRAW
+C -70 130 42 0 0 0 N
+C 80 130 42 0 0 0 N
+S -150 200 150 50 0 0 0 N
+P 2 0 0 0 -110 130 -30 130 N
+P 2 0 0 0 -70 170 -70 90 N
+P 2 0 0 0 80 170 80 90 N
+P 2 0 0 0 120 130 40 130 N
+X 1 1 -50 0 50 U 50 50 1 1 P
+X 2 2 50 0 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Trim_POT
+#
+DEF Trim_POT RV 0 0 N N 1 F N
+F0 "RV" -150 100 50 H V C CNN
+F1 "Trim_POT" 0 -150 50 H I C CNN
+F2 "Amp_Main_Deck:0805_handsolder" 0 -340 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "10k" 0 -80 50 H V C CNN "Amount"
+F5 "Manufacture" 0 -210 50 H I C CNN "Manufacturer"
+F6 "PartNumber" 0 -150 50 H I C CNN "Part Number"
+F7 "Vendor" 0 -270 50 H I C CNN "Vendor"
+F8 "Vendor Part Number" 0 -150 50 H I C CNN "Vendor Part Number"
+F9 "0805" 0 -210 50 H I C CNN "FP_Name"
+F10 "1/8W" 0 -150 50 H I C CNN "Power"
+DRAW
+T 0 0 0 50 0 0 0 R Normal 0 C C
+S -100 40 100 -40 0 0 0 N
+P 2 0 0 0 0 50 20 70 N
+P 3 0 0 0 0 100 0 50 -20 70 N
+X 1 1 -150 0 50 R 50 50 1 1 P
+X 2 2 0 150 50 D 50 50 1 1 P
+X 3 3 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

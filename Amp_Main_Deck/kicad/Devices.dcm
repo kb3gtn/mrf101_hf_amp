@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2N7002
+D 2N7002 N-Channel Mosfet 115mA
+$ENDCMP
+#
+$CMP MRF101A
+D MRF 101 RF Mosfet N-Channel
+$ENDCMP
+#
+#End Doc Library

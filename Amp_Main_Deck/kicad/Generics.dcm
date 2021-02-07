@@ -1,0 +1,44 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP C
+D Generic Unpolarized Capacitor
+$ENDCMP
+#
+$CMP CP
+D Generic Polarized Capacitor
+$ENDCMP
+#
+$CMP Diode_Generic
+D Generic resistor
+$ENDCMP
+#
+$CMP Diode_LED
+D Generic resistor
+$ENDCMP
+#
+$CMP Diode_Zener
+D Generic Zener Diode
+$ENDCMP
+#
+$CMP GND
+D Power symbol creates a global label with name "GND" , ground
+K power-flag
+$ENDCMP
+#
+$CMP L
+D Generic resistor
+$ENDCMP
+#
+$CMP R
+D Generic resistor
+$ENDCMP
+#
+$CMP TermBlock_2pin
+D Generic resistor
+$ENDCMP
+#
+$CMP Trim_POT
+D Generic resistor
+$ENDCMP
+#
+#End Doc Library

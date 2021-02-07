@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CMC
+D Generic Unpolarized Capacitor
+F https://www.mouser.com/datasheet/2/445/744851330-1723241.pdf
+$ENDCMP
+#
+#End Doc Library
