@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name Generics)(type Legacy)(uri ${KIPRJMOD}/Generics.lib)(options "")(descr ""))
+  (lib (name CMC)(type Legacy)(uri ${KIPRJMOD}/CMC.lib)(options "")(descr ""))
+  (lib (name Devices)(type Legacy)(uri ${KIPRJMOD}/Devices.lib)(options "")(descr ""))
+)

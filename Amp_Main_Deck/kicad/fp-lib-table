@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Amp_Main_Deck)(type KiCad)(uri ${KIPRJMOD}/Amp_Main_Deck.pretty)(options "")(descr ""))
+)
